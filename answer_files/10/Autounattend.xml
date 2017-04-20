@@ -32,23 +32,20 @@
                 <FullName>Paul Hunt</FullName>
                 <Organization>Woodburysoft</Organization>
 
-                <!--
-                    NOTE: If you are re-configuring this for use of a retail key
-                    and using a retail ISO, you need to adjust the <ProductKey> block
-                    below to look like this:
-
+                
                     <ProductKey>
-                        <Key>33PXH-7Y6KF-2VJC9-XBBR8-HVTHH</Key>
+                        <Key>MG4HB-9VCDG-CRW9B-2PRC8-T4TFM</Key>
                         <WillShowUI>Never</WillShowUI>
                     </ProductKey>
 
-                    Notice the addition of the `<Key>` element.
-                -->
+                  
 
                 <!-- Product Key from http://technet.microsoft.com/en-us/library/jj612867.aspx -->
-                <ProductKey>W269N-WFGWX-YVC9B-4J6C9-T83GX
+                <!--
+				<ProductKey>W269N-WFGWX-YVC9B-4J6C9-T83GX
                     <WillShowUI>Never</WillShowUI>
                 </ProductKey>
+				-->
             </UserData>
             <ImageInstall>
                 <OSImage>
@@ -61,7 +58,7 @@
                     <InstallFrom>
                         <MetaData wcm:action="add">
                             <Key>/IMAGE/NAME</Key>
-                            <Value>Windows 10 Professional</Value>
+                            <Value>Windows 10 Pro</Value>
                         </MetaData>
                     </InstallFrom>
                 </OSImage>
@@ -289,7 +286,7 @@
                 <HelpCustomized>false</HelpCustomized>
             </OEMInformation>
             <!-- Rename computer here. -->
-            <ComputerName>WOODBURYSOFT-DEV</ComputerName>
+            <ComputerName>WSDEV</ComputerName>
             <TimeZone>GMT Standard Time</TimeZone>
             <RegisteredOwner/>
         </component>
