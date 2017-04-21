@@ -1,14 +1,14 @@
 ::http://support.microsoft.com/kb/2570538
 ::http://robrelyea.wordpress.com/2007/07/13/may-be-helpful-ngen-exe-executequeueditems/
 
-if exist %windir%\microsoft.net\framework\v4.0.30319\ngen.exe (
-	%windir%\microsoft.net\framework\v4.0.30319\ngen.exe update /force /queue
-	%windir%\microsoft.net\framework\v4.0.30319\ngen.exe executequeueditems
-)
-if exist %windir%\microsoft.net\framework64\v4.0.30319\ngen.exe (
-	%windir%\microsoft.net\framework64\v4.0.30319\ngen.exe update /force /queue
-	%windir%\microsoft.net\framework64\v4.0.30319\ngen.exe executequeueditems
-)
+REM if exist %windir%\microsoft.net\framework\v4.0.30319\ngen.exe (
+REM 	%windir%\microsoft.net\framework\v4.0.30319\ngen.exe update /force /queue
+REM 	%windir%\microsoft.net\framework\v4.0.30319\ngen.exe executequeueditems
+REM )
+REM if exist %windir%\microsoft.net\framework64\v4.0.30319\ngen.exe (
+REM 	%windir%\microsoft.net\framework64\v4.0.30319\ngen.exe update /force /queue
+REM 	%windir%\microsoft.net\framework64\v4.0.30319\ngen.exe executequeueditems
+REM )
 
 :: continue even if ngen fails
-exit /b 0
+REM exit /b 0
