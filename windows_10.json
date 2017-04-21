@@ -51,7 +51,15 @@
         "./scripts/compact.bat"
       ]
     }
-  ],  
+  ], 
+  "post-processors": [
+    {
+      "type": "vagrant",
+      "keep_input_artifact": false,
+      "output": "windows_10_{{.Provider}}.box",
+      "vagrantfile_template": "vagrantfile-windows_10.template"
+    }
+  ],
   "variables": {
     "iso_url": "c:/ISO/en-gb_windows_10_multiple_editions_version_1703_updated_march_2017_x64_dvd_10194881.iso",
     "iso_checksum_type": "sha1",
