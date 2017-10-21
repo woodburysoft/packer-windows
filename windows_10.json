@@ -61,7 +61,7 @@
     }
   ],
   "variables": {
-    "iso_url": "c:/ISO/en-gb_windows_10_multi-edition_version_1709_updated_sept_2017_x64_dvd_100090819",
+    "iso_url": "c:/ISO/en-gb_windows_10_multi-edition_version_1709_updated_sept_2017_x64_dvd_100090819.iso",
     "iso_checksum_type": "sha1",
     "iso_checksum": "ca8065dd7df4507f3031af2676fe8fcbf9255849",
     "autounattend": "./answer_files/10/Autounattend.xml"
