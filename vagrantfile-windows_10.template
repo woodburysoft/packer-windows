@@ -24,6 +24,6 @@ Vagrant.configure("2") do |config|
         v.customize ["setextradata", "global", "GUI/SuppressMessages", "all" ]
     end
     
-    config.vm.provision "file", source: "Functions.ps1", destination: "c:\tmp\Functions.ps1"
+    config.vm.provision "file", source: "Functions.ps1", destination: "c:/tmp/Functions.ps1"
     config.vm.provision "shell", path: "Step 1.ps1"
 end
