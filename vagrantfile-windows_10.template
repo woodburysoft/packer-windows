@@ -24,6 +24,5 @@ Vagrant.configure("2") do |config|
         v.customize ["setextradata", "global", "GUI/SuppressMessages", "all" ]
     end
     
-    config.vm.provision "shell", path: "install-chocolatey.bat"
-    config.vm.provision "shell", path: "install-basic-tools.bat"
+    config.vm.provision "shell", path: "Step 1.ps1"
 end
